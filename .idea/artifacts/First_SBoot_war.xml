@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="First-SBoot:war">
+    <output-path>$PROJECT_DIR$/../First-SBoot/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>First-SBoot</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="First-SBoot.war">
+      <element id="artifact" artifact-name="First-SBoot:war exploded" />
+    </root>
+  </artifact>
+</component>
